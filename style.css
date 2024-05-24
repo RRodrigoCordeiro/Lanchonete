@@ -102,12 +102,12 @@
   
 }
 .description-menu p {
-   min-width: 200px;
+    min-width: 200px;
     max-width: 300px;
-    
     text-align: justify;
     margin-left: 2px;
-    line-height: 20px;
+    margin-top: 15px;
+    line-height: 22px;
 
     
 }
