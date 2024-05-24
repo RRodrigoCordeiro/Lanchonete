@@ -139,8 +139,22 @@
     font-size: 12px;
     cursor: pointer;
 }
-
 /* Fim do cardapio */
+/* inicio do footer */
+.footer{
+    background-color: rgb(24, 134, 134);
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.footer p {
+    margin-left: 55px;
+}
+
+/*fim do footer  */
 
 
 
