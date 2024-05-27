@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="sobre.css">
     <title>Sobre nos</title>
 </head>
+
 <body>
     <header class="header">
         <p>Lanches Gourmet</p>
@@ -19,7 +21,7 @@
     <div class="photo">
         <div class="text-header">
             <h1>Lanches Gourmet</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus et adipisci iure repellendus dignissimos</p>
+            <p>Descubra uma experiência gastronômica inesquecível à beira-mar.</p>
             <p>Reservar mesa</p>
         </div>
     </div>
@@ -27,86 +29,105 @@
         <h2>Delivery do Lanches Gourmet</h2>
         <p>Temos o delivery mais rapido da cidade</p>
     </div>
-    <div style="display: flex; align-items: center; justify-content: center;">
-        <div style="display: flex; align-items: center; justify-content: center;">
-           <img src="img/delivery.jpg" alt="" style="max-width: 150px; border-radius: 50% ;">
-        </div>
-            <div style="margin: 10px;">
-                <h3 >O seu pedido chega rápido </h3>
-                <p style="max-width: 250px; margin-top: 15px;">Compre o seu lanche e receba em minutos, nosso delivery é o diferencial da cidade</p>
-            </div>
+    <div class="container-delivery">
         <div>
-            <img src="img/gps.jpg" alt="" style="max-width: 150px; border-radius: 50%;">
+            <img src="img/delivery.jpg" alt="foto da moto" class="container-delivery-image">
         </div>
-        <div style="margin: 10px;">
+        <div class="description-delivery">
+            <h3>O seu pedido chega rápido </h3>
+            <p>Compre o seu lanche e receba em minutos, nosso delivery é o
+                diferencial da cidade
+            </p>
+        </div>
+        <div>
+            <img src="img/gps.jpg" alt="foto do gps" class="container-delivery-image">
+        </div>
+        <div class="description-delivery" >
             <h3>Rastreamento de Pedido</h3>
-            <p style="max-width: 250px; margin-top: 15px;">Faça o seu pedido e tenha o controle de onde ele vai até chegar a sua casa</p>
-        </div>
-        <div style="margin: 10px;">
-            <img src="img/quente.jpg" alt="" style="max-width: 150px; border-radius: 50%;">
-           
+            <p>Faça o seu pedido e tenha o controle de onde ele vai até
+                chegar a sua casa
+            </p>
         </div>
         <div>
+            <img src="img/quente.jpg" alt="foto da comida quente" class="container-delivery-image">
+        </div>
+        <div class="description-delivery">
             <h3>Comida quente</h3>
-            <p style="max-width: 250px; margin-top: 15px;">A comida chega na sua casa quente, pronto para ser servida</p>
+            <p>A comida chega na sua casa quente, pronto para ser servida</p>
         </div>
     </div>
     <div class="description-title">
         <h2>Forma de Pagamento</h2>
         <p>Conheça a nossa forma de pagamento, feita para melhor atendê-lo.</p>
     </div>
-    <div style="display: flex; align-items: center; justify-content: center; margin-left: 105px;">
+    <div class="container-payment-left">
         <div>
-            <img src="img/pix-removebg-preview.png" alt="" style="max-width: 250px;">
+            <img src="img/pix-removebg-preview.png" alt="forma de pagamento via pix" class="payment-image">
         </div>
-        <div style="display: flex;flex-direction: column; align-items: flex-center; justify-content: space-between; max-width: 800px; text-align: justify; max-height: 350px;">
-            <h2 style="text-align: center;">Aceitamos Pix</h2>
-            <p style="margin-left: 15px; margin-top: 15px; line-height: 25px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit dignissimos perferendis autem odit sit. Velit quae accusamus voluptatibus id? Accusantium porro magnam fugit facilis vel est ullam earum aliquid odio? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui facere nulla quibusdam quas nihi</p>
-            
+        <div class="choice-payment">
+            <h2>Aceitamos Pix</h2>
+            <p>O Pix é uma forma de pagamento
+                instantânea e eletrônica, onde a transação ocorre em poucos segundos, a qualquer hora do dia ou da
+                noite, incluindo fins de semana e feriados. Para pagar com Pix, você pode utilizar seu aplicativo
+                bancário ou carteira digital para escanear um código QR ou inserir a chave Pix do estabelecimento. Após
+                a confirmação da transação, o valor é debitado imediatamente da sua conta bancária, oferecendo
+                conveniência e agilidade.</p>
         </div>
     </div>
-    <div style="display: flex; align-items: center; justify-content: center; margin-left: 105px; flex-direction: row-reverse; margin-right: 100px;">
+    <div class="container-payment-right">
         <div>
-            <img src="img/cedito-removebg-preview.png" alt="" style="max-width: 250px;">
+            <img src="img/cedito-removebg-preview.png" alt="forma de pagamento via cartão de credito"class="payment-image" >
         </div>
-        <div style="align-items: center; justify-content: center; text-align: justify;">
-            <h2 style="text-align: center; ">Aceitamos Cartão de Credito</h2>
-            <p style="margin-right: 15px; line-height: 25px; margin-top: 15px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit dignissimos perferendis autem odit sit. Velit quae accusamus voluptatibus id? Accusantium porro magnam fugit facilis vel est ullam earum aliquid odio? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui facere nulla quibusdam quas nihi</p>
+        <div class="choice-payment-right" >
+            <h2>Aceitamos Cartão de Credito</h2>
+            <p>O pagamento por débito é uma opção
+                rápida e direta, onde o valor da sua compra é debitado automaticamente da sua conta bancária vinculada
+                ao seu cartão de débito. Para efetuar o pagamento, basta inserir o seu cartão de débito na máquina de
+                cartão e digitar sua senha. O valor da compra é deduzido imediatamente do saldo disponível em sua conta,
+                oferecendo praticidade e segurança.</p>
         </div>
     </div>
-    <div style="display: flex; align-items: center; justify-content: center; margin-left: 105px;">
+    <div class="container-payment-left">
         <div>
-            <img src="img/debito1-removebg-preview.png" alt="" style="max-width: 250px;">
+            <img src="img/debito1-removebg-preview.png" alt="forma de pagamento via debito" class="payment-image">
         </div>
-        <div style="align-items: center; justify-content: center;">
-            <h2 style="text-align: center;">Aceitamos cartão de Debito</h2>
-            <p style="text-align: justify; margin-left: 15px; margin-top: 15px; line-height: 25px; max-width: 950px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit dignissimos perferendis autem odit sit. Velit quae accusamus voluptatibus id? Accusantium porro magnam fugit facilis vel est ullam earum aliquid odio? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui facere nulla quibusdam quas nihi</p>
-
+        <div class="choice-payment">
+            <h2>Aceitamos cartão de Debito</h2>
+            <p>O pagamento por crédito permite que você realize uma compra e pague o valor posteriormente, em uma data
+                determinada pela sua operadora de cartão de crédito. Ao optar pelo pagamento com cartão de crédito, você
+                pode parcelar a sua compra de acordo com as condições oferecidas pela operadora do seu cartão. </p>
         </div>
     </div>
     <div class="description-title">
         <h2>Localização</h2>
         <p>Ficamos em uma Localização estrategica para melhor atendê-lo</p>
     </div>
-    <div style="display: flex; align-items: center; justify-content: center;">
-        <div style="max-width: 550px; margin-right: 15px; text-align: justify;">
-            <h3 style="text-align: center; margin-bottom: 15px; ">Venha nos conhecer</h3>
-            <P style="line-height: 30px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis exercitationem veritatis error necessitatibus pariatur? Eaque, molestiae at qui inventore corporis delectus accusamus rem ducimus voluptatibus, minima nisi, fuga magni similique!</P>
+    <div class="container-location">
+        <div class="description-location">
+            <h3>Venha nos conhecer</h3>
+            <P>venha nos visitar e deixe-se encantar pelo nosso ambiente acolhedor, onde cada
+                detalhe foi pensado para tornar sua estadia memorável. Queremos recebê-lo em nosso restaurante e
+                proporcionar uma experiência gastronômica que vai além do sabor - é uma jornada para os sentidos e para
+                o coração.
+            </P>
         </div>
-        <div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15836.935510856752!2d-34.8449749!3d-7.0988692!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7acdd6df40f5401%3A0xbdb630ecc698116e!2sManaira%20Shopping!5e0!3m2!1spt-BR!2sbr!4v1716405824669!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15836.935510856752!2d-34.8449749!3d-7.0988692!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7acdd6df40f5401%3A0xbdb630ecc698116e!2sManaira%20Shopping!5e0!3m2!1spt-BR!2sbr!4v1716405824669!5m2!1spt-BR!2sbr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
         </div>
     </div>
     <footer class="footer">
         <p><strong>Tefone:</strong>(83) 78945-5235</p>
-        <p><strong>Email:</strong> programador@gmail.com</p>
-        <p><strong>Endereço:</strong>Avenida: uytre, número: 12345</p>
+        <p><strong>Email:</strong> lanchonete@gmail.com</p>
+        <p><strong>Endereço:</strong>Avenida: Cabo Branco, número: 12345</p>
         <p><strong>Redes Sociais:</strong> </p>
-        <img src="img/whats-removebg-preview.png" alt="" style="height: 20px; width: 20px; border: 50%; margin: 5px;">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/800px-Instagram_logo_2022.svg.png" alt="" style="height: 20px; width: 20px; margin: 5px;">
-        <img src="img/face-removebg-preview.png" alt="" style="height: 20px; width: 20px; margin: 5px;"  >
+        <img src="img/whats-removebg-preview.png" alt="imagem do whatsApp" >
+        <img src="img/Instagram_logo_2022.svg.png"
+            alt="imagem do instagram">
+        <img src="img/face-removebg-preview.png" alt="Imagem do facebook">
     </footer>
-    
 </body>
 </html>
-<!-- forma de pagamento -->
+

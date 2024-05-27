@@ -21,7 +21,6 @@
     margin-left: 100px;
 }
 .photo {
-    /* width: 50px; */
     position: relative;
     background-image: url(img/bg.png);
     background-position: center;
@@ -34,24 +33,25 @@
 .text-header {
     position: absolute;
     top: 40%;
-    left: 34%;
+    left: 37%;
     margin: 0 auto;
     color: white;
     text-align: center;
-    /* max-width: 520px; */
+   
 }
 .text-header p {
     margin-top: 15px;
     max-width: 550px;
 }
-/* Fim do cabeçalho */
+
 .description-title{
     text-align: center;
     margin-top: 80px;
     margin-bottom: 50px;
     font-size: 20px;
 }
-/* form*/
+/* Fim do cabeçalho */
+/* Inicio do form*/
 .form{
     width: 900px;
     margin: 80px auto;
@@ -92,7 +92,8 @@ textarea {
     color: white;
     background-color: rgba(0, 128, 0, 0.723);
 }
-/* fim form */
+/* fim do form */
+/* Inicio do footer */
 .footer{
     background-color: rgb(24, 134, 134);
     height: 200px;
@@ -105,5 +106,9 @@ textarea {
 .footer p {
     margin-left: 55px;
 }
-
+.footer img {
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+}
 /*fim do footer  */

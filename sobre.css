@@ -21,7 +21,6 @@
     margin-left: 100px;
 }
 .photo {
-    /* width: 50px; */
     position: relative;
     background-image: url(img/bg.png);
     background-position: center;
@@ -29,30 +28,117 @@
     background-size: cover;
     width: 100%;
     height: 500px;
-
 }
 .text-header {
     position: absolute;
     top: 40%;
-    left: 34%;
+    left: 37%;
     margin: 0 auto;
     color: white;
     text-align: center;
-    /* max-width: 520px; */
 }
 .text-header p {
     margin-top: 15px;
     max-width: 550px;
 }
-/* Fim do cabeçalho */
 .description-title{
     text-align: center;
     margin-top: 80px;
     margin-bottom: 50px;
     font-size: 20px;
 }
+/* Fim do cabeçalho */
 /* Inicio Delivery */
+.container-delivery{
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+.container-delivery-image{
+    max-width: 150px; 
+    border-radius: 50% ;
+}
+.description-delivery{
+    margin: 10px;
+}
+.description-delivery p {
+    max-width: 250px;
+    margin-top: 15px;
+}
 /* Fim Delivery */
+/* Inicio forma de pagamento */
+.container-payment-left{
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    margin-left: 105px;
+}
+.payment-image{
+    max-width: 250px;
+}
+.choice-payment{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 800px; 
+    text-align: justify;
+    max-height: 350px;
+}
+.choice-payment h2 {
+    text-align: center;
+}
+.choice-payment p {
+    text-align: justify; 
+    margin-left: 15px;
+    margin-top: 15px; 
+    line-height: 25px;
+    
+}
+.container-payment-right{
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    margin-left: 105px;
+    flex-direction: row-reverse;
+    margin-right: 100px;
+}
+.choice-payment-right{
+    align-items: center; 
+    justify-content: center; 
+    text-align: justify;
+}
+.choice-payment-right h2 {
+    text-align: center; 
+}
+.choice-payment-right p{
+    margin-right: 15px;
+    margin-left: 80px; 
+    line-height: 25px; 
+    margin-top: 15px;
+    max-width: 850px;
+}
+/* Fim da forma de pagamento */
+/* Inicio localização */
+.container-location{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+.description-location{
+    max-width: 550px;
+    margin-right: 15px;
+    text-align: justify;
+}
+.description-location h3 {
+    text-align: center; 
+    margin-bottom: 15px; 
+}
+.description-location p {
+    line-height: 30px;
+
+}
+/* Fim da localização */
+/* Inicio do footer */
 .footer{
     background-color: rgb(24, 134, 134);
     height: 200px;
@@ -65,5 +151,9 @@
 .footer p {
     margin-left: 55px;
 }
-
+.footer img {
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+}
 /*fim do footer  */
