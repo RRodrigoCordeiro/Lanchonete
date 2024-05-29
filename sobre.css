@@ -31,8 +31,9 @@
 }
 .text-header {
     position: absolute;
-    top: 40%;
-    left: 37%;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
     margin: 0 auto;
     color: white;
     text-align: center;
@@ -46,6 +47,14 @@
     margin-top: 80px;
     margin-bottom: 50px;
     font-size: 20px;
+}
+.reserve {
+    background-color: green;
+    border-radius: 5px;
+    padding: 8px;
+    width: 220px;
+    position: absolute;
+    left: 28%;
 }
 /* Fim do cabeçalho */
 /* Inicio Delivery */

@@ -32,8 +32,9 @@
 }
 .text-header {
     position: absolute;
-    top: 40%;
-    left: 37%;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
     margin: 0 auto;
     color: white;
     text-align: center;
@@ -42,8 +43,14 @@
     margin-top: 15px;
     max-width: 550px;
 }
-/* Fim do cabeçalho */
-/* Inicio  do Conheça nosso interior */
+.reserve {
+    background-color: green;
+    border-radius: 5px;
+    padding: 8px;
+    width: 220px;
+    position: absolute;
+    left: 28%;
+}
 .cardapio,
 .description-title {
     text-align: center;
@@ -51,6 +58,9 @@
     margin-bottom: 50px;
     font-size: 20px;
 }
+/* Fim do cabeçalho */
+/* Inicio  do Conheça nosso interior */
+
 .container-image{
     display: flex;
     align-items: center;
