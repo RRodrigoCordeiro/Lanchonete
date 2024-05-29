@@ -60,52 +60,49 @@
 }
 /* Fim do cabeçalho */
 /* Inicio  do Conheça nosso interior */
-
-.container-image{
-    display: flex;
+.container-internal{
+    display: flex; 
     align-items: center;
     justify-content: center;
-    margin: 50px auto;
-}
-.description-image p,
-.container-image p {
-    max-width: 300px;
-    text-align: center;
-    text-align: justify;
-    margin: 10px;
 }
 .internal-image{
-    max-height: 150px;
-    width: 150px;
-    border-radius: 15px;
-    margin-right: 25px;
+    max-width: 250px; 
+    border-radius: 50%; 
+    max-height:250px;
+    margin-right: 20px;
 }
-.description-image{
-    display: flex;
-    flex-direction: column;
-}
-.description-image h3 {
-    margin-left: 20px;
+.description-internal {
+    max-width: 550px; 
+    text-align: justify; 
+    line-height: 25px;
 }
 
 /* fim do conheço nosso interior */
 /* Inicio do cardapio */
+.title-menu{
+    margin-left: 90px; 
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
 .menu-cardapio {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.menu-image{
+    max-height: 150px;
+    width: 150px;
+    border-radius: 15px;
+    margin-right: 25px;
 }
 .description-menu{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 150px;
-   
-
 }
 .description-menu h3{
     margin-left: 2px;
-
   
 }
 .description-menu p {
@@ -166,6 +163,196 @@
     margin: 5px;
 }
 /*fim do footer  */
+/* Responsividade */
+@media(max-width:1158px){
+    .menu-cardapio{
+        font-size: 14px;
+        margin-left: 100px;
+        
+    }
+    .description-internal{
+        font-size: 15px;
+    }
+    .internal-image{
+        height: 220px;
+        width: 220px;
+    }
+    .preco button {
+        font-size: 10px;
+        width: 110px;
+    }
+}
+@media(max-width:1188px){ 
+    .footer p {
+        margin-left: 40px;
+    }
+}
+@media(max-width:1130px){
+    .menu-cardapio{
+        font-size: 14px;
+        margin-left: 100px;
+    }
+    .menu-image{
+        height: 140px;
+        width: 120px;
+    }
+    .preco button{
+        font-size: 10px;
+        width: 110px;  
+    }
+    .footer p {
+        margin-left: 20px;
+    }
+    .description-internal{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .internal-image{
+        height: 200px;
+        width: 200px;
+    }
+    .title-menu{
+        margin-top: 50px;
+    }
+}
+@media(max-width:1070px){
+    .menu-cardapio{
+        font-size: 13px;
+        margin-right: 25px;
+        
+    }
+    .menu-image{
+        height: 110px;
+        width: 110px;
+    }
+    .description-menu {
+        margin-right: 15px;
+        max-width: 330px;
+        
+    }
+    .preco button{
+        font-size: 10px;
+        margin-left: -56px;
+
+    }
+    .footer p {
+        font-size: 13px;
+        margin: 12px;
+    }
+
+}
+@media(max-width:910px){
+    .header {
+        font-size: 18px;
+    }
+    .reserve {
+        position: absolute;
+        top: 110%; 
+        left: 50%; 
+        transform: translate(-50%, -50%);
+
+    }
+    .description-internal{
+        font-size: 11px;
+        line-height: 20px;
+        max-width: 350px;
+    }
+    .internal-image{
+        height: 180px;
+        width: 180px;
+    }
+    .menu-cardapio{
+        font-size: 11px;
+        margin-right: 25px;
+        
+    }
+    .menu-image{
+        height: 90px;
+        width: 90px;
+    }
+    .description-menu {
+        margin-right: 15px;
+        max-width: 270px;
+        
+    }
+    .preco button{
+        font-size: 10px;
+        margin-left: -150px;
+
+    }
+    .footer p {
+        font-size: 10px;
+        margin: 8px;
+    }
+}
+@media(max-width:726px) {
+    .header {
+        font-size: 10px;
+        
+        
+    }
+   .header p {
+    margin-left: 5px;
+   }
+    .reserve {
+        position: absolute;
+        top: 110%; 
+        left: 50%; 
+        transform: translate(-50%, -50%);
+
+    }
+    .description-title{
+        font-size: 15px;
+    }
+    .description-internal{
+        font-size: 11px;
+        line-height: 20px;
+        max-width: 200px;
+    }
+    .internal-image{
+        height: 150px;
+        width: 110px;
+        
+    }
+    .menu-cardapio{
+        font-size: 11px;
+        margin-right: 25px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .menu-image{
+        height: 90px;
+        width: 90px;
+        margin-bottom: 20px;
+        margin-top: 50px;
+        
+    }
+    .description-menu {
+        margin-right: 15px;
+        max-width: 240px;
+        
+        
+    }
+    .preco button{
+        font-size: 8px;
+        
+        margin-left: -150px;
+
+    }
+    .title-menu {
+        font-size: 12px;
+    }
+    .footer p {
+        display: flex;
+        flex-direction: column;
+        font-size: 8px;
+        
+    }
+}
+
+
+
 
 
 
