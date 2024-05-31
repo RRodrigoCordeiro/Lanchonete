@@ -7,6 +7,9 @@
 }
 :root{
     --primary-color:#008000; 
+    --secondary-color: #ffffff;
+    --tertiary-color:  #008000b8;
+    --quaternary-color: #188686;
 }
 /* Inicio do cabeçalho */
 .header {
@@ -39,7 +42,7 @@
     left: 50%; 
     transform: translate(-50%, -50%);
     margin: 0 auto;
-    color: white;
+    color: var(--secondary-color);
     text-align: center;
 }
 .text-header p {
@@ -98,8 +101,8 @@ textarea {
     height: 50px;
     width: 150px;
     font-weight: bold;
-    color: white;
-    background-color: #008000b8;
+    color: var(--secondary-color);
+    background-color: var(--tertiary-color);
 }
 .button:hover{
     cursor: pointer;
@@ -110,7 +113,7 @@ a {
 /* fim do form */
 /* Inicio do footer */
 .footer{
-    background-color: #188686;
+    background-color: var(--quaternary-color);
     height: 200px;
     width: 100%;
     display: flex;
