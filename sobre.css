@@ -172,15 +172,74 @@
 }
 /*fim do footer  */
 /* Incio da responsividade */
-@media(max-width:1188px){ 
-    .footer p {
-        margin-left: 40px;
-    }
+@media(max-width:1190px){
+   .container-delivery {
+    margin-left: 20px;
+   }  
+   .description-delivery h3{
+    font-size: 13px;
+   }
+   .choice-payment-right p,
+   .choice-payment p {
+    font-size: 15px;
+    margin-right: 20px;
+   }
+   .container-location {
+    
+   }
+   .description-location p{
+    font-size: 15px;
+   }
+   iframe{
+    width: 450px;
+   }
+   .footer{
+    font-size: 13px;
+   }
 }
-@media(max-width:910px){
-    .header {
-        font-size: 18px;
+@media(max-width:1130px){
+    .container-delivery {
+     margin-left: 20px;
+    }  
+    .description-delivery h3{
+     font-size: 11px;
     }
+    .description-delivery p {
+        font-size: 12px;
+    }
+    .container-delivery-image {
+        width: 125px;
+    }
+    .choice-payment-right p,
+    .choice-payment p {
+     font-size: 13px;
+     margin-right: 15px;
+    }
+    .container-location {
+     
+    }
+    .description-location p{
+     font-size: 11px;
+     margin-left: 4px;
+    }
+    iframe{
+     width: 290px;
+     margin-right: 5px;
+     height: 290px;
+    }
+    .footer{
+     font-size: 7px;
+    }
+ }
+ @media(max-width:705px){
+    .header {
+        font-size: 10px;
+        
+        
+    }
+   .header p {
+    margin-left: 5px;
+   }
     .reserve {
         position: absolute;
         top: 110%; 
@@ -188,5 +247,55 @@
         transform: translate(-50%, -50%);
 
     }
-}
+    .description-title{
+        font-size: 15px;
+    }
+     .container-delivery {
+     margin-left: px;
+    }  
+    .description-delivery h3{
+     font-size: 8px;
+    }
+    .description-delivery p {
+        font-size: 5px;
+    }
+    .container-delivery-image {
+        width: 60px;
+    }
+    .payment-image {
+        width: 120px;
+    }
+    
+    .choice-payment p {
+     font-size: 8px;
+    }
+    .choice-payment-right p{
+        width: 120px;
+        font-size: 8px;
+
+    }
+
+    .container-payment-right h2,
+    .choice-payment h2{
+        font-size: 15px;
+        margin-top: 5px;
+    }
+    .container-location {
+     
+    }
+    .description-location p{
+     font-size: 8px;
+     margin-left: 5px;
+    }
+    iframe{
+     width: 230px;
+    }
+    .footer{
+     font-size: 4px;
+    }
+    .footer p {
+        margin-left: 7px;
+    }
+
+ }
 /* Fim da resposividade */
