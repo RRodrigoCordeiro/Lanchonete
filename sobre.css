@@ -171,3 +171,22 @@
     margin: 5px;
 }
 /*fim do footer  */
+/* Incio da responsividade */
+@media(max-width:1188px){ 
+    .footer p {
+        margin-left: 40px;
+    }
+}
+@media(max-width:910px){
+    .header {
+        font-size: 18px;
+    }
+    .reserve {
+        position: absolute;
+        top: 110%; 
+        left: 50%; 
+        transform: translate(-50%, -50%);
+
+    }
+}
+/* Fim da resposividade */
