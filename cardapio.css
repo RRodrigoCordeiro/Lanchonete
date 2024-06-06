@@ -150,3 +150,117 @@
     margin: 5px;
 }
 /*fim do footer  */
+/* Inicio da responsividade */
+@media(max-width:1102px){
+    .menu-cardapio{
+        margin-left: 90px;
+        margin-right: 25px;
+    }
+    .internal-image{
+        width: 70px;
+    }
+    .description-menu h3{
+        font-size: 18px;
+    }
+    .description-menu p {
+        font-size: 12px;
+        max-width: ;
+    
+    }
+    .price button {
+        font-size: 6px;
+        margin-left: -80px;
+    }
+    .footer {
+        font-size: 13px;
+    }
+    .footer p{
+        margin-left: 15px;
+    }
+}
+@media(max-width:846px){
+    .header{
+        font-size: 15px;
+    }
+    .internal-image{
+        width: 70px;
+    }
+    .description-menu h3{
+        font-size: 18px;
+    }
+    .description-menu p {
+        font-size: 10px;
+        width: 100px;
+    
+    }
+    .price button {
+        font-size: 6px;
+        width: 75px;
+        margin-left: -110px;
+    }
+    .footer {
+        font-size: 10px;
+    }
+    .footer p{
+        margin-left: 12px;
+    }
+
+
+}
+@media(max-width:675px){
+    .header{
+        font-size: 10px;
+    }
+    .menu-cardapio{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5px;
+    }
+    .reserve {
+        position: absolute;
+        top: 110%; 
+        left: 50%; 
+        transform: translate(-50%, -50%);
+
+    }
+    .header p {
+        margin-left: 5px;
+       }
+    .description-title {
+        font-size: 15px;
+    }
+    .title-menu{
+        font-size: 12px;
+    }
+    .internal-image{
+        width: 70px;
+        margin-top: 50px;
+        margin-bottom: 15px;
+
+    }
+    .description-menu h3{
+        font-size: 18px;
+    }
+    .description-menu p {
+        font-size: 10px;
+        width: 100px;
+    
+    }
+    .price button {
+        font-size: 6px;
+        width: 75px;
+        margin-left: -110px;
+       
+    }
+    .footer {
+        font-size: 8px;
+    }
+    .footer p{
+        margin-left: 2px;
+    }
+
+
+}
+
+
+/* Fim da responsividade */

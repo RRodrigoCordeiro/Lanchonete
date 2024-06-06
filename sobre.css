@@ -274,11 +274,14 @@
         font-size: 8px;
 
     }
-
-    .container-payment-right h2,
     .choice-payment h2{
         font-size: 15px;
         margin-top: 5px;
+    }
+    .container-payment-right {
+        margin-top: 55px;
+        font-size: 10px;
+
     }
     .container-location {
      
@@ -291,10 +294,11 @@
      width: 230px;
     }
     .footer{
-     font-size: 4px;
+     font-size: 8px;
     }
     .footer p {
-        margin-left: 7px;
+        margin-left: 5px;
+  
     }
 
  }
