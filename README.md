@@ -10,21 +10,21 @@ Na seção "Sobre a Lanchonete", os visitantes podem explorar informações deta
 Este projeto foi desenvolvido com o objetivo de proporcionar uma plataforma intuitiva e acessível, focada em facilitar a compra de lanches para os clientes, enquanto oferece uma interface amigável e informativa.
 
 ## Layout mobile
-### Imagem da Localização 
+### Imagem da Página Principal  
 
 ![Mobile 1](img/imgInteriorMobile.png)
 
-### Imagem da escolha dos Móveis 
+###  Imagem do Cardápio 
 
 ![Mobile 1](img/imgInteriorMobile2.png) 
 
 
 ## Layout web
-### Imagem da Localização 
+### Imagem da Página Principal 
 
 ![Web 1](img/imgInteriorWeb.png)
 
-### Imagem da escolha dos móveis
+###  Imagem do Cardápio 
 
 
 ![Web 1](img/imgInteriorWeb2.png)
