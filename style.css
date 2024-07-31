@@ -11,6 +11,9 @@
     --tertiary-color: #0eb20ebd;
     --quaternary-color:#188686;
 }
+.hidden {
+    display: none;
+}
 /* Inicio do cabeçalho */
 .header {
     display: flex;

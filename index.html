@@ -44,7 +44,7 @@
     </div>
     <div class="description-title">
         <h2>Nosso cardápio</h2>
-        <p>Temos diversos opções no nosso cardápio Gourmet</p>
+        <p>Temos diversos opções no nosso cardapio Gourmet</p>
     </div>
     <div class="title-menu">
         <h2>PRATOS</h2>
@@ -93,10 +93,34 @@
             </div>
         </div>
     </div>
+    
+    <div class="hidden" id="maisOpcoes">
+        <div class="menu-cardapio" >
+            <img class="menu-image" src="img/coca1.png" alt="imagem da coca-cola">
+            <div class="description-menu">
+                <h3>Coca-Cola </h3>
+                <p>Coca-Cola de 1 litro </p>
+                <div class="preco">
+                    <p>R$ 10</p>
+                    <button>Adicionar no carrinho</button>
+                </div>
+            </div>
+            <img class="menu-image" src="img/guanara.jpg" alt="imagem do guanara">
+            <div class="description-menu">
+                <h3>Guanara</h3>
+                <p>Guarana de 1 litro </p>
+                <div class="preco">
+                    <p>R$ 10</p>
+                    <button>Adicionar no carrinho</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <div class="button">
-        <a href="cardapio.html">
-            <button type="submit">Saiba mais</button>
-        </a>
+        
+            <button id="saiba-mais" onclick="AdicionarMaisOpcoes()">Saiba mais</button>
+        
     </div>
     <footer class="footer">
         <p><strong>Tefone:</strong>(83) 78945-5235</p>
@@ -108,6 +132,8 @@
             alt="imagem do instagram">
         <img src="img/face-removebg-preview.png" alt="Imagem do facebook">
     </footer>
+
+    <script src="index.js"></script>
 </body>
 
 </html>
