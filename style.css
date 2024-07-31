@@ -160,6 +160,53 @@
 .preco button:hover{
     cursor: pointer;
 }
+.car {
+    position: fixed;
+    top: 90%; 
+    right: 8px;
+    width: 70px;
+    height: 70px; 
+}
+.cartModal{
+    background-color: rgb(217, 209, 209);
+    width: 80%;
+    height: 70vh;
+    position: fixed;
+    top: 20%;
+    left: 11%;
+    z-index: 99;
+    justify-content: center;
+    border-radius: 20px;
+    
+}
+.cartModal h2 {
+    color: black;
+    margin-top: 28px;
+}
+.ModalOrder{
+    display: flex;
+    flex-direction: row;
+}
+.closeCar{
+    position: absolute;
+    bottom: 80px;
+    left: 70px;
+    display: block;
+    background-color: #008000;
+    padding: 11px;
+    cursor: pointer;
+    border-radius: 10px;   
+}
+.finalizeOrder{
+    position: absolute;
+    bottom: 80px;
+    right: 70px;
+    display: block;
+    background-color: #008000;
+    padding: 11px;
+    cursor: pointer;
+    border-radius: 10px; 
+}
 /* Fim do cardapio */
 /* inicio do footer */
 .footer{
