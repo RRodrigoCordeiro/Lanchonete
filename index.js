@@ -137,6 +137,46 @@ function removeItemCart(name){
 }
 
 
+addressInput.addEventListener("input", function(event){
+    let imputValue = event.target.value;
+
+    if(imputValue !== ""){
+        // addressInput.classList.remove()colocar classe
+        addressWarn.classList.add("hidden")
+    }
+})
+
+finalizeOrder.addEventListener("click", function(){
+    if(cart.length === 0)return;
+
+    if(addressInput.value === ""){
+        addressWarn.classList.remove("hidden")
+        // addressInput.classList.add() colocar classe
+        return;
+    }
+    
+const cartItems = cart.map((item) =>{
+    return(
+        `
+            ${item.name} Quantidade: (${item.quantity}) Preço: R$ ${item.price} 
+            
+        `
+    )
+}).join("")
+
+const message = encodeURIComponent(cartItems)
+const phone = "123456789"
+
+window.open(`https://wa.me/${phone}?text=${message} Endeço: ${addressInput.value}`,"_blank");
+// Limpar carrinho
+cart = [];
+updateCartModal();
+})
+
+
+
+
+
 
 
 
