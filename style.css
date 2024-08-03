@@ -207,6 +207,11 @@
     cursor: pointer;
     border-radius: 10px; 
 }
+.cart-style{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 /* Fim do cardapio */
 /* inicio do footer */
 .footer{
@@ -226,6 +231,7 @@
     width: 20px;
     margin: 5px;
 }
+
 /*fim do footer  */
 /* Responsividade */
 @media(max-width:1158px){

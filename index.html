@@ -192,7 +192,10 @@
             <h2>Carrinho de compras</h2>
             <div id="cart-items"></div>
             <div id="cart-total">Total: R$ 0,00</div>
-            <input type="text" placeholder="digite seu endereço" id="address">
+            <input
+             type="text" 
+             placeholder="digite seu endereço" 
+             id="address">
             <p class="hidden" id="address-warn">Digite seu endereço completo</p>
             <div class="modalOrder">
                 <button id="closeModal" class="closeCar">Fechar</button>
@@ -205,12 +208,12 @@
     <div class="button">
         <button id="saiba-mais" onclick="AdicionarMaisOpcoes()">Saiba mais</button>
     </div>
-    <div>
-        <img src="img/car.png" class="car" id="cart-btn" alt="foto do carrinho">
+    <div class="car">
+        <img src="img/car.png"  class="car" id="cart-btn" alt="foto do carrinho" >
+        <span id="cart-count">0</span>
     </div> 
  
     <footer class="footer">
-        <span id="cart-count">0</span>
         <p><strong>Telefone:</strong>(83) 78945-5235</p>
         <p><strong>Email:</strong> lanchonete@gmail.com</p>
         <p><strong>Endereço:</strong>Avenida: Cabo Branco, número: 12345</p>

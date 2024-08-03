@@ -27,6 +27,7 @@ const AdicionarMaisOpcoes = () => {
 
 cartBtn.addEventListener('click', function(){
     cartModal.style.display = "flex"
+    
 })
 
 cartModal.addEventListener('click',function(event){
@@ -82,25 +83,65 @@ function updateCartModal(){
     //  função para percorrer a lista e fazer algo
     cart.forEach(item => {
         const cartItemsElement = document.createElement("div");
-        cartItemsElement.classList.add("flex","justify-between")
+        cartItemsElement.classList.add("flex","justify-between",)
         cartItemsElement.innerHTML = `
-        <div">
+        <div class="cart-style">
             <div>
                 <p>${item.name}</p>
                 <p>${item.quantity}</p>
-                <p>${item.price}</p>
+                <p>${item.price.toFixed(2)}</p>
             </div>
-            <div>
-                <button>
+                <button class="romove-btn" data-name="${item.name}">
                     remover
                 </button>
-            </div>
+            
         </div
         `
+
+        total += item.price * item.quantity
         cartItemsContainer.appendChild(cartItemsElement)
     })
+// formatação para a moeda em real
+    cartTotal.textContent = total.toLocaleString("pt-BR", {
+        style: "currency",
+        currency: "BRL"
+    });
 
+    cartCounter.innerHTML = cart.length;
 }
+
+// Função remover o item no carrinho
+
+cartItemsContainer.addEventListener("click", function(event){
+    if(event.target.classList.contains("romove-btn")){
+        const name = event.target.getAttribute("data-name")
+        removeItemCart(name)
+    }
+})
+
+function removeItemCart(name){
+    const index = cart.findIndex(item => item.name === name);
+
+    if(index !== -1){
+        const item = cart[index];
+
+        if(item.quantity > 1){
+            item.quantity -= 1;
+            updateCartModal()
+            return;
+        }
+// splice remove o lista da lista
+        cart.splice(index,1);
+        updateCartModal()
+    }
+}
+
+
+
+
+
+
+
 
 
 
