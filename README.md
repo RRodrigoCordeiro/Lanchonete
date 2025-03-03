@@ -62,4 +62,4 @@ Em desenvolvimento
 
 Rodrigo Cordeiro
 
-https://www.linkedin.com/in/rodrigo-cordeiro-4687992ab/
+https://www.linkedin.com/in/rodrigocordeirot/
